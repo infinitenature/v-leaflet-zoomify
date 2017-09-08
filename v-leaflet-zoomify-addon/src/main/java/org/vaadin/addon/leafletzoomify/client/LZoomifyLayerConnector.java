@@ -1,9 +1,7 @@
 package org.vaadin.addon.leafletzoomify.client;
 
-import org.peimari.gleaflet.client.TileLayer;
-import org.peimari.gleaflet.client.TileLayerOptions;
-import org.peimari.gleaflet.zoomify.client.ZoomifyLayer;
-import org.peimari.gleaflet.zoomify.client.ZoomifyLayerOptions;
+import org.peimari.gleaflet.client.*;
+import org.peimari.gleaflet.zoomify.client.*;
 import org.vaadin.addon.leaflet.client.LeafletTileLayerConnector;
 import org.vaadin.addon.leafletzoomify.LZoomifiyLayer;
 
@@ -27,7 +25,7 @@ public class LZoomifyLayerConnector extends LeafletTileLayerConnector {
 
 	@Override
 	protected TileLayer createTileLayer(TileLayerOptions o) {
-		return ZoomifyLayer.create(getState().url, o);
+		return ZoomifyLayer.create(getState().url, (ZoomifyLayerOptions) o);
 	}
 
 	@Override
