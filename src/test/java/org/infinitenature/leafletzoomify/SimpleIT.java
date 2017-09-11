@@ -15,7 +15,7 @@ import org.vaadin.addonhelpers.automated.*;
 
 import java.util.List;
 
-public class SimpleTest extends AbstractWebDriverCase {
+public class SimpleIT extends AbstractWebDriverCase {
 
     @Test
     public void checkAllTestsOpenWithoutErrors() throws IOException, AssertionError {
