@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.infinitenature</groupId>
 	<artifactId>v-leaflet-zoomify</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<organization>
 		<name>Infinitenature</name>
